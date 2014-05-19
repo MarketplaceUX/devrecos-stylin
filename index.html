@@ -12,276 +12,284 @@
 </head>
 <body>
 
-  <h1>Mockup for MDN developer recommendations features</h1>
+  <h2>Mockup for MDN developer recommendations features</h2>
 
-  <h2>FAQ box</h2>
+  <div class="pagewrap">
 
-  <div class="faq-box">
-    <h3>FAQ</h3>
-    <dl>
-      <dt>How do I make an installable app?</dt>
-      <dd>You need to use Mozilla's <a href="https://developer.mozilla.org/en-US/Apps/Build/JavaScript_API">App installation and management APIs</a>.</dd>
-      <dt>What is the state of browser support for offline technologies?</dt>
-      <dd>You could look them up on MDN, see the rest of this page. Another good place to look for answers is <a href="http://caniuse.com/">Can I use</a>.</dd>
-      <dt>What storage limits does IndexedDB have?</dt>
-      <dd>See this <a href="http://stackoverflow.com/search?q=indexeddb+storage+limit">Stack overflow search</a>.</dd>
-    </dl>
-  </div>
+  <h1>Working Offline</h1>
+  <hr>
 
-  <h2>Diagram overlay</h2>
+	  <div class="faq-box">
+	    <h3>Frequently Asked Questions</h3>
+	    <ul>
+	      <li><b>How do I make an installable app?</b>
+	      	<br/>You need to use Mozilla's <a href="https://developer.mozilla.org/en-US/Apps/Build/JavaScript_API">App installation and management APIs</a>.</li>
+	    
+	      <li><b>What is the state of browser support for offline technologies?</b>
+	      	<br/>You could look them up on MDN, see the rest of this page. Another good place to look for answers is <a href="http://caniuse.com/">Can I use</a>.</li>
+	      
+	      <li><b>What storage limits does IndexedDB have?</b>
+	      	<br/>See this <a href="http://stackoverflow.com/search?q=indexeddb+storage+limit">Stack overflow search</a>.</li>
+	    </ul>
+	  </div>
 
-  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 736 441" enable-background="new 0 0 736 441" xml:space="preserve">
-<g id="3" class="active-area">	 
-  <rect x="298.9" y="160.9" transform="matrix(0.7071 0.7071 -0.7071 0.7071 235.4193 -178.3524)" fill="#EFEFEF" width="68.1" height="68.1"/>
-  <text transform="matrix(1 0 0 1 322.5904 180.5388)"><tspan x="0" y="0" font-family="'OpenSans'" font-size="12">Do I</tspan><tspan x="-2.2" y="14.4" font-family="'OpenSans'" font-size="12">have </tspan><tspan x="-14.1" y="28.8" font-family="'OpenSans'" font-size="12">updates?</tspan></text>
-</g>
-<g id="2" class="active-area">
-  <rect x="206.9" y="277.9" transform="matrix(0.7071 0.7071 -0.7071 0.7071 291.2046 -79.0301)" fill="#EFEFEF" width="68.1" height="68.1"/>
-  <text transform="matrix(1 0 0 1 228.7404 306.0794)"><tspan x="0" y="0" font-family="'OpenSans'" font-size="12">Am I</tspan><tspan x="-7.4" y="14.4" font-family="'OpenSans'" font-size="12">online?</tspan></text>
-</g>
-<g id="0" class="active-area">
-	<rect x="30" y="198" fill="#EDEDED" width="114" height="50"/>
-	<text transform="matrix(1 0 0 1 72.5992 224.6201)"><tspan x="0" y="0" font-family="'OpenSans'" font-size="12">Download/</tspan><tspan x="0" y="14.4" font-family="'OpenSans'" font-size="12">Install</tspan></text>
-</g>
-<g id="1" class="active-area">
-	<rect x="30" y="285" fill="#EFEFEF" width="114" height="53"/>
-	<text transform="matrix(1 0 0 1 58.6328 316.1201)" font-family="'OpenSans'" font-size="12">Launched</text>
-</g>
-<g id="6" class="active-area">
-	<rect x="593" y="338" fill="#EFEFEF" width="114" height="53"/>
-	<text transform="matrix(1 0 0 1 630.1613 368.1201)" font-family="'OpenSans'" font-size="12">Store locally</text>
-</g>
-<g id="4" class="active-area">
-	<rect x="416" y="56" fill="#EFEFEF" width="114" height="53"/>
-	<text transform="matrix(1 0 0 1 464.1613 84.1201)"><tspan x="0" y="0" font-family="'OpenSans'" font-size="12">Sync with </tspan><tspan x="0" y="14.4" font-family="'OpenSans'" font-size="12">the server</tspan></text>
-</g>
-<g id="5" class="active-area">
-	<circle fill="#EFEFEF" cx="474" cy="362" r="71"/>
-	<text transform="matrix(1 0 0 1 438.9898 365.1608)" font-family="'OpenSans'" font-size="12">“App Things”</text>
-</g>
-<rect x="305.6" y="171.4" fill="none" width="56.4" height="46.1"/>
+	  <div class="diagramwrap">
+	  	<h3>Offline Workflow</h3>
 
-<rect x="213.2" y="233" fill="none" width="56.4" height="15"/>
-<text transform="matrix(1 0 0 1 232.0978 242.0794)" font-family="'OpenSans'" font-size="12">yes</text>
-<rect x="213.2" y="377.5" fill="none" width="56.4" height="13"/>
-<text transform="matrix(1 0 0 1 234.0431 386.5794)" font-family="'OpenSans'" font-size="12">no</text>
-<rect x="213.2" y="297" fill="none" width="56.4" height="46.1"/>
-<g>
-	<g>
-		<line fill="none" stroke="#777777" stroke-miterlimit="10" x1="86.5" y1="256" x2="86.5" y2="273"/>
-		<g>
-			<path fill="#777777" d="M86.5,279c-1.1-2.8-2.9-6.4-4.8-8.5l4.8,1.7l4.8-1.7C89.4,272.6,87.6,276.2,86.5,279z"/>
-		</g>
+	  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		 viewBox="0 0 736 441" enable-background="new 0 0 736 441" xml:space="preserve">
+	<g id="3" class="active-area">	 
+	  <rect x="298.9" y="160.9" transform="matrix(0.7071 0.7071 -0.7071 0.7071 235.4193 -178.3524)" fill="#CCCCCC" width="68.1" height="68.1"/>
+	  <text transform="matrix(1 0 0 1 322.5904 180.5388)"><tspan x="0" y="0" font-family="'OpenSans'" font-size="12">Do I</tspan><tspan x="-2.2" y="14.4" font-family="'OpenSans'" font-size="12">have </tspan><tspan x="-14.1" y="28.8" font-family="'OpenSans'" font-size="12">updates?</tspan></text>
 	</g>
-</g>
-<g>
-	<g>
-		<path fill="none" stroke="#777777" stroke-miterlimit="10" d="M179,311.5c0,0-4.9,0-11,0s-11,0-11,0s4.9,0,11,0c1.8,0,5,0,5,0"/>
-		<g>
-			<path fill="#777777" d="M179,311.5c-2.8,1.1-6.4,2.9-8.5,4.8l1.7-4.8l-1.7-4.8C172.6,308.6,176.2,310.4,179,311.5z"/>
-		</g>
+	<g id="2" class="active-area">
+	  <rect x="206.9" y="277.9" transform="matrix(0.7071 0.7071 -0.7071 0.7071 291.2046 -79.0301)" fill="#CCCCCC" width="68.1" height="68.1"/>
+	  <text transform="matrix(1 0 0 1 228.7404 306.0794)"><tspan x="0" y="0" font-family="'OpenSans'" font-size="12">Am I</tspan><tspan x="-7.4" y="14.4" font-family="'OpenSans'" font-size="12">online?</tspan></text>
 	</g>
-</g>
-<ellipse fill="none" stroke="#777777" stroke-miterlimit="10" cx="240.5" cy="255.8" rx="0" ry="5.2"/>
-<rect x="306.2" y="115" fill="none" width="56.4" height="15"/>
-<text transform="matrix(1 0 0 1 325.0978 124.0794)" font-family="'OpenSans'" font-size="12">yes</text>
-<ellipse fill="none" stroke="#777777" stroke-miterlimit="10" cx="333.5" cy="137.8" rx="0" ry="5.2"/>
-<ellipse fill="none" stroke="#777777" stroke-miterlimit="10" cx="240.5" cy="366.8" rx="0" ry="5.2"/>
-<rect x="306.2" y="267.5" fill="none" width="56.4" height="13"/>
-<text transform="matrix(1 0 0 1 327.0431 276.5794)" font-family="'OpenSans'" font-size="12">no</text>
-<ellipse fill="none" stroke="#777777" stroke-miterlimit="10" cx="333.5" cy="256.8" rx="0" ry="5.2"/>
-<g>
-	<g>
-		<polyline fill="none" stroke="#777777" stroke-miterlimit="10" points="269,194.5 239.5,194.5 239.5,227 		"/>
-		<g>
-			<path fill="#777777" d="M275,194.5c-2.8-1.1-6.4-2.9-8.5-4.8l1.7,4.8l-1.7,4.8C268.6,197.4,272.2,195.6,275,194.5z"/>
-		</g>
+	<g id="0" class="active-area">
+		<rect x="30" y="198" fill="#CCCCCC" width="114" height="50"/>
+		<text transform="matrix(1 0 0 1 72.5992 224.6201)"><tspan x="0" y="0" font-family="'OpenSans'" font-size="12">Download/</tspan><tspan x="0" y="14.4" font-family="'OpenSans'" font-size="12">Install</tspan></text>
 	</g>
-</g>
-<g>
-	<g>
-		<polyline fill="none" stroke="#777777" stroke-miterlimit="10" points="397,82.5 333.5,82.5 333.5,115 		"/>
-		<g>
-			<path fill="#777777" d="M403,82.5c-2.8-1.1-6.4-2.9-8.5-4.8l1.7,4.8l-1.7,4.8C396.6,85.4,400.2,83.6,403,82.5z"/>
-		</g>
+	<g id="1" class="active-area">
+		<rect x="30" y="285" fill="#CCCCCC" width="114" height="53"/>
+		<text transform="matrix(1 0 0 1 58.6328 316.1201)" font-family="'OpenSans'" font-size="12">Launched</text>
 	</g>
-</g>
-<g>
-	<g>
-		<line fill="none" stroke="#777777" stroke-miterlimit="10" x1="253" y1="383.5" x2="384" y2="383.5"/>
-		<g>
-			<path fill="#777777" d="M390,383.5c-2.8,1.1-6.4,2.9-8.5,4.8l1.7-4.8l-1.7-4.8C383.6,380.6,387.2,382.4,390,383.5z"/>
-		</g>
+	<g id="6" class="active-area">
+		<rect x="593" y="338" fill="#CCCCCC" width="114" height="53"/>
+		<text transform="matrix(1 0 0 1 630.1613 368.1201)" font-family="'OpenSans'" font-size="12">Store locally</text>
 	</g>
-</g>
-<line fill="none" stroke="#777777" stroke-miterlimit="10" x1="333.5" y1="285" x2="333.5" y2="384"/>
-<g>
-	<g>
-		<line fill="none" stroke="#777777" stroke-miterlimit="10" x1="472.5" y1="115" x2="472.5" y2="275"/>
-		<g>
-			<path fill="#777777" d="M472.5,281c-1.1-2.8-2.9-6.4-4.8-8.5l4.8,1.7l4.8-1.7C475.4,274.6,473.6,278.2,472.5,281z"/>
-		</g>
+	<g id="4" class="active-area">
+		<rect x="416" y="56" fill="#CCCCCC" width="114" height="53"/>
+		<text transform="matrix(1 0 0 1 464.1613 84.1201)"><tspan x="0" y="0" font-family="'OpenSans'" font-size="12">Sync with </tspan><tspan x="0" y="14.4" font-family="'OpenSans'" font-size="12">the server</tspan></text>
 	</g>
-</g>
-<g>
-	<g>
-		<line fill="none" stroke="#777777" stroke-miterlimit="10" x1="561" y1="362.5" x2="573" y2="362.5"/>
-		<g>
-			<path fill="#777777" d="M555,362.5c2.8,1.1,6.4,2.9,8.5,4.8l-1.7-4.8l1.7-4.8C561.4,359.6,557.8,361.4,555,362.5z"/>
-		</g>
-		<g>
-			<path fill="#777777" d="M579,362.5c-2.8,1.1-6.4,2.9-8.5,4.8l1.7-4.8l-1.7-4.8C572.6,359.6,576.2,361.4,579,362.5z"/>
-		</g>
+	<g id="5" class="active-area">
+		<circle fill="#CCCCCC" cx="474" cy="362" r="71"/>
+		<text transform="matrix(1 0 0 1 438.9898 365.1608)" font-family="'OpenSans'" font-size="12">“App Things”</text>
 	</g>
-</g>
-<g>
-	<rect x="196.5" y="282.5" fill="#FFFFFF" stroke="#777777" stroke-miterlimit="10" width="26" height="27"/>
-	<path fill="#EFEFEF" stroke="#DEE1E2" stroke-miterlimit="10" d="M220.9,250.6c-1.5,0-2.8,0.5-3.9,1.3c-1.2-1.9-3.2-3.1-5.6-3.1
-		c-0.7,0-1.3,0.1-2,0.3c-1.1-0.7-2.3-1.1-3.7-1.1c-2.7,0-5,1.6-6,3.9c-0.2,0-0.4,0-0.6,0c-3.6,0-6.6,2.9-6.6,6.6
-		c0,3.6,2.9,6.6,6.6,6.6c0.9,0,1.8-0.2,2.7-0.6c1.2,1.4,3,2.2,4.9,2.2c2.1,0,4-1,5.2-2.6c1.2,1,2.7,1.5,4.3,1.5c1.8,0,3.5-1,4.7-2
-		c0,0,0,0,0,0c3.6,0,6.6-2.8,6.6-6.5C227.5,253.4,224.5,250.6,220.9,250.6z"/>
-	<g>
-		<path d="M209.1,277v-0.3c0-0.5,0.1-0.9,0.2-1.2c0.2-0.3,0.4-0.7,0.9-1c0.6-0.5,0.9-0.9,1.1-1.1c0.2-0.2,0.2-0.5,0.2-0.9
-			c0-0.4-0.1-0.8-0.4-1c-0.3-0.2-0.7-0.4-1.2-0.4c-0.3,0-0.7,0-1,0.1c-0.3,0.1-0.7,0.2-1.1,0.4l-0.4-0.9c0.8-0.4,1.6-0.6,2.5-0.6
-			c0.8,0,1.4,0.2,1.9,0.6c0.5,0.4,0.7,1,0.7,1.7c0,0.3,0,0.6-0.1,0.8c-0.1,0.2-0.2,0.5-0.4,0.7s-0.5,0.6-1,1
-			c-0.4,0.4-0.7,0.7-0.9,0.9s-0.2,0.6-0.2,1v0.2H209.1z M208.7,278.9c0-0.6,0.3-0.9,0.8-0.9c0.2,0,0.4,0.1,0.6,0.2s0.2,0.4,0.2,0.6
-			c0,0.3-0.1,0.5-0.2,0.6c-0.1,0.2-0.3,0.2-0.6,0.2c-0.2,0-0.4-0.1-0.5-0.2C208.8,279.4,208.7,279.2,208.7,278.9z"/>
-	</g>
-	<circle fill="#777777" cx="208.1" cy="295.6" r="6.1"/>
-	<circle fill="#A3A3A3" cx="212.5" cy="298" r="4.4"/>
-	<circle fill="#D1D1D1" cx="205.2" cy="301.1" r="1.6"/>
-</g>
-<g>
+	<rect x="305.6" y="171.4" fill="none" width="56.4" height="46.1"/>
+
+	<rect x="213.2" y="233" fill="none" width="56.4" height="15"/>
+	<text transform="matrix(1 0 0 1 232.0978 242.0794)" font-family="'OpenSans'" font-size="12">yes</text>
+	<rect x="213.2" y="377.5" fill="none" width="56.4" height="13"/>
+	<text transform="matrix(1 0 0 1 234.0431 386.5794)" font-family="'OpenSans'" font-size="12">no</text>
+	<rect x="213.2" y="297" fill="none" width="56.4" height="46.1"/>
 	<g>
 		<g>
-			<polyline fill="none" stroke="#777777" stroke-miterlimit="10" points="61.5,229 61.5,235.5 55,235.5 			"/>
-			<polyline fill="none" stroke="#777777" stroke-miterlimit="10" points="42,235.5 35.5,235.5 35.5,229 			"/>
-			<polyline fill="none" stroke="#777777" stroke-miterlimit="10" points="35.5,215 35.5,209.5 42,209.5 			"/>
-			<polyline fill="none" stroke="#777777" stroke-miterlimit="10" points="55,209.5 61.5,209.5 61.5,215 			"/>
+			<line fill="none" stroke="#777777" stroke-miterlimit="10" x1="86.5" y1="256" x2="86.5" y2="273"/>
+			<g>
+				<path fill="#777777" d="M86.5,279c-1.1-2.8-2.9-6.4-4.8-8.5l4.8,1.7l4.8-1.7C89.4,272.6,87.6,276.2,86.5,279z"/>
+			</g>
 		</g>
 	</g>
-	<path fill="#EFEFEF" stroke="#DEE1E2" stroke-miterlimit="10" d="M59.3,177.6c-1.4,0-2.8,0.5-3.8,1.3c-1.1-1.8-3.2-3-5.5-3
-		c-0.7,0-1.3,0.1-1.9,0.3c-1-0.7-2.3-1.1-3.6-1.1c-2.6,0-4.9,1.6-5.9,3.8c-0.2,0-0.4,0-0.6,0c-3.6,0-6.4,2.9-6.4,6.4
-		c0,3.6,2.9,6.4,6.4,6.4c0.9,0,1.8-0.2,2.6-0.5c1.2,1.3,2.9,2.2,4.8,2.2c2.1,0,3.9-1,5.1-2.5c1.1,1,2.6,1.6,4.2,1.6
-		c1.8,0,3.4-0.8,4.6-1.8c0,0,0,0,0,0c3.6,0,6.4-2.9,6.4-6.5S62.9,177.6,59.3,177.6z"/>
 	<g>
-		<circle fill="none" stroke="#777777" stroke-miterlimit="10" stroke-dasharray="9.4109,9.4109" cx="47.3" cy="221.6" r="6"/>
+		<g>
+			<path fill="none" stroke="#777777" stroke-miterlimit="10" d="M179,311.5c0,0-4.9,0-11,0s-11,0-11,0s4.9,0,11,0c1.8,0,5,0,5,0"/>
+			<g>
+				<path fill="#777777" d="M179,311.5c-2.8,1.1-6.4,2.9-8.5,4.8l1.7-4.8l-1.7-4.8C172.6,308.6,176.2,310.4,179,311.5z"/>
+			</g>
+		</g>
+	</g>
+	<ellipse fill="none" stroke="#000" stroke-miterlimit="10" cx="240.5" cy="255.8" rx="0" ry="5.2"/>
+	<rect x="306.2" y="115" fill="none" width="56.4" height="15"/>
+	<text transform="matrix(1 0 0 1 325.0978 124.0794)" font-family="'OpenSans'" font-size="12">yes</text>
+	<ellipse fill="none" stroke="#777777" stroke-miterlimit="10" cx="333.5" cy="137.8" rx="0" ry="5.2"/>
+	<ellipse fill="none" stroke="#777777" stroke-miterlimit="10" cx="240.5" cy="366.8" rx="0" ry="5.2"/>
+	<rect x="306.2" y="267.5" fill="none" width="56.4" height="13"/>
+	<text transform="matrix(1 0 0 1 327.0431 276.5794)" font-family="'OpenSans'" font-size="12">no</text>
+	<ellipse fill="none" stroke="#777777" stroke-miterlimit="10" cx="333.5" cy="256.8" rx="0" ry="5.2"/>
+	<g>
+		<g>
+			<polyline fill="none" stroke="#777777" stroke-miterlimit="10" points="269,194.5 239.5,194.5 239.5,227 		"/>
+			<g>
+				<path fill="#777777" d="M275,194.5c-2.8-1.1-6.4-2.9-8.5-4.8l1.7,4.8l-1.7,4.8C268.6,197.4,272.2,195.6,275,194.5z"/>
+			</g>
+		</g>
 	</g>
 	<g>
-		<circle fill="none" stroke="#A3A3A3" stroke-miterlimit="10" stroke-dasharray="13.3299,13.3299" cx="51.7" cy="223.9" r="4.2"/>
+		<g>
+			<polyline fill="none" stroke="#777777" stroke-miterlimit="10" points="397,82.5 333.5,82.5 333.5,115 		"/>
+			<g>
+				<path fill="#777777" d="M403,82.5c-2.8-1.1-6.4-2.9-8.5-4.8l1.7,4.8l-1.7,4.8C396.6,85.4,400.2,83.6,403,82.5z"/>
+			</g>
+		</g>
 	</g>
 	<g>
-		<circle fill="none" stroke="#D1D1D1" stroke-miterlimit="10" stroke-dasharray="12" cx="44.5" cy="227" r="1.6"/>
+		<g>
+			<line fill="none" stroke="#777777" stroke-miterlimit="10" x1="253" y1="383.5" x2="384" y2="383.5"/>
+			<g>
+				<path fill="#777777" d="M390,383.5c-2.8,1.1-6.4,2.9-8.5,4.8l1.7-4.8l-1.7-4.8C383.6,380.6,387.2,382.4,390,383.5z"/>
+			</g>
+		</g>
 	</g>
-	<polygon points="49,203 49,196 47,196 47,203 45.4,203 48.4,206.3 51.4,203 	"/>
-</g>
-<g>
-	<rect x="426.5" y="71.5" fill="#FFFFFF" stroke="#777777" stroke-miterlimit="10" width="24" height="24"/>
-	<path fill="#EFEFEF" stroke="#DEE1E2" stroke-miterlimit="10" d="M448.8,41.7c-1.3,0-2.6,0.4-3.6,1.2c-1.1-1.7-2.9-2.8-5.1-2.8
-		c-0.6,0-1.2,0.1-1.8,0.3c-1-0.6-2.1-1-3.4-1c-2.4,0-4.5,1.5-5.5,3.6c-0.2,0-0.4,0-0.6,0c-3.3,0-6,2.7-6,6c0,3.3,2.7,6,6,6
-		c0.9,0,1.7-0.2,2.4-0.5c1.1,1.2,2.7,2,4.5,2c1.9,0,3.7-0.9,4.8-2.3c1.1,0.9,2.4,1.4,3.9,1.4c1.7,0,3.2-0.9,4.3-1.9c0,0,0,0,0,0
-		c3.3,0,6-2.6,6-5.9S452.1,41.7,448.8,41.7z"/>
-	<circle fill="#777777" cx="437.1" cy="82.8" r="5.6"/>
-	<circle fill="#A3A3A3" cx="441.1" cy="85" r="4"/>
-	<circle fill="#D1D1D1" cx="434.4" cy="87.9" r="1.5"/>
-	<polygon points="439,62 440.9,62 438.5,59.4 436.1,62 438,62 438,66 436.1,66 438.5,68.6 440.9,66 439,66 	"/>
-</g>
-<g>
-	<rect x="600.5" y="351.5" fill="#FFFFFF" stroke="#777777" stroke-miterlimit="10" width="22" height="22"/>
-	<circle fill="#777777" cx="609.8" cy="361.7" r="5.2"/>
-	<circle fill="#A3A3A3" cx="613.6" cy="363.7" r="3.7"/>
-	<circle fill="#D1D1D1" cx="607.4" cy="366.4" r="1.4"/>
-	<polygon points="612,342 613.4,342 611.2,339.6 609,342 611,342 611,346 609,346 611.2,348.4 613.4,346 612,346 	"/>
+	<line fill="none" stroke="#777777" stroke-miterlimit="10" x1="333.5" y1="285" x2="333.5" y2="384"/>
 	<g>
-		<path fill="#B2B2B2" d="M615,335.2c0,0.5-0.4,0.8-0.8,0.8h-6.3c-0.5,0-0.8-0.4-0.8-0.8v-12.3c0-0.5,0.4-0.8,0.8-0.8h6.3
-			c0.5,0,0.8,0.4,0.8,0.8V335.2z"/>
-		<path fill="#565656" d="M615,333.4c0,0.4-0.8,1.6-1.2,1.6h-5.3c-0.4,0-0.5-1.2-0.5-1.6v-9.7c0-0.4,0.2,0.2,0.5,0.2h5.3
-			c0.4,0,1.2-0.6,1.2-0.2V333.4z"/>
+		<g>
+			<line fill="none" stroke="#777777" stroke-miterlimit="10" x1="472.5" y1="115" x2="472.5" y2="275"/>
+			<g>
+				<path fill="#777777" d="M472.5,281c-1.1-2.8-2.9-6.4-4.8-8.5l4.8,1.7l4.8-1.7C475.4,274.6,473.6,278.2,472.5,281z"/>
+			</g>
+		</g>
 	</g>
-</g>
-</svg>
+	<g>
+		<g>
+			<line fill="none" stroke="#777777" stroke-miterlimit="10" x1="561" y1="362.5" x2="573" y2="362.5"/>
+			<g>
+				<path fill="#777777" d="M555,362.5c2.8,1.1,6.4,2.9,8.5,4.8l-1.7-4.8l1.7-4.8C561.4,359.6,557.8,361.4,555,362.5z"/>
+			</g>
+			<g>
+				<path fill="#777777" d="M579,362.5c-2.8,1.1-6.4,2.9-8.5,4.8l1.7-4.8l-1.7-4.8C572.6,359.6,576.2,361.4,579,362.5z"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<rect x="196.5" y="282.5" fill="#FFFFFF" stroke="#777777" stroke-miterlimit="10" width="26" height="27"/>
+		<path fill="#CCCCCC" stroke="#999999" stroke-miterlimit="10" d="M220.9,250.6c-1.5,0-2.8,0.5-3.9,1.3c-1.2-1.9-3.2-3.1-5.6-3.1
+			c-0.7,0-1.3,0.1-2,0.3c-1.1-0.7-2.3-1.1-3.7-1.1c-2.7,0-5,1.6-6,3.9c-0.2,0-0.4,0-0.6,0c-3.6,0-6.6,2.9-6.6,6.6
+			c0,3.6,2.9,6.6,6.6,6.6c0.9,0,1.8-0.2,2.7-0.6c1.2,1.4,3,2.2,4.9,2.2c2.1,0,4-1,5.2-2.6c1.2,1,2.7,1.5,4.3,1.5c1.8,0,3.5-1,4.7-2
+			c0,0,0,0,0,0c3.6,0,6.6-2.8,6.6-6.5C227.5,253.4,224.5,250.6,220.9,250.6z"/>
+		<g>
+			<path d="M209.1,277v-0.3c0-0.5,0.1-0.9,0.2-1.2c0.2-0.3,0.4-0.7,0.9-1c0.6-0.5,0.9-0.9,1.1-1.1c0.2-0.2,0.2-0.5,0.2-0.9
+				c0-0.4-0.1-0.8-0.4-1c-0.3-0.2-0.7-0.4-1.2-0.4c-0.3,0-0.7,0-1,0.1c-0.3,0.1-0.7,0.2-1.1,0.4l-0.4-0.9c0.8-0.4,1.6-0.6,2.5-0.6
+				c0.8,0,1.4,0.2,1.9,0.6c0.5,0.4,0.7,1,0.7,1.7c0,0.3,0,0.6-0.1,0.8c-0.1,0.2-0.2,0.5-0.4,0.7s-0.5,0.6-1,1
+				c-0.4,0.4-0.7,0.7-0.9,0.9s-0.2,0.6-0.2,1v0.2H209.1z M208.7,278.9c0-0.6,0.3-0.9,0.8-0.9c0.2,0,0.4,0.1,0.6,0.2s0.2,0.4,0.2,0.6
+				c0,0.3-0.1,0.5-0.2,0.6c-0.1,0.2-0.3,0.2-0.6,0.2c-0.2,0-0.4-0.1-0.5-0.2C208.8,279.4,208.7,279.2,208.7,278.9z"/>
+		</g>
+		<circle fill="#777777" cx="208.1" cy="295.6" r="6.1"/>
+		<circle fill="#A3A3A3" cx="212.5" cy="298" r="4.4"/>
+		<circle fill="#D1D1D1" cx="205.2" cy="301.1" r="1.6"/>
+	</g>
+	<g>
+		<g>
+			<g>
+				<polyline fill="none" stroke="#777777" stroke-miterlimit="10" points="61.5,229 61.5,235.5 55,235.5 			"/>
+				<polyline fill="none" stroke="#777777" stroke-miterlimit="10" points="42,235.5 35.5,235.5 35.5,229 			"/>
+				<polyline fill="none" stroke="#777777" stroke-miterlimit="10" points="35.5,215 35.5,209.5 42,209.5 			"/>
+				<polyline fill="none" stroke="#777777" stroke-miterlimit="10" points="55,209.5 61.5,209.5 61.5,215 			"/>
+			</g>
+		</g>
+		<path fill="#CCCCCC" stroke="#999999" stroke-miterlimit="10" d="M59.3,177.6c-1.4,0-2.8,0.5-3.8,1.3c-1.1-1.8-3.2-3-5.5-3
+			c-0.7,0-1.3,0.1-1.9,0.3c-1-0.7-2.3-1.1-3.6-1.1c-2.6,0-4.9,1.6-5.9,3.8c-0.2,0-0.4,0-0.6,0c-3.6,0-6.4,2.9-6.4,6.4
+			c0,3.6,2.9,6.4,6.4,6.4c0.9,0,1.8-0.2,2.6-0.5c1.2,1.3,2.9,2.2,4.8,2.2c2.1,0,3.9-1,5.1-2.5c1.1,1,2.6,1.6,4.2,1.6
+			c1.8,0,3.4-0.8,4.6-1.8c0,0,0,0,0,0c3.6,0,6.4-2.9,6.4-6.5S62.9,177.6,59.3,177.6z"/>
+		<g>
+			<circle fill="none" stroke="#777777" stroke-miterlimit="10" stroke-dasharray="9.4109,9.4109" cx="47.3" cy="221.6" r="6"/>
+		</g>
+		<g>
+			<circle fill="none" stroke="#A3A3A3" stroke-miterlimit="10" stroke-dasharray="13.3299,13.3299" cx="51.7" cy="223.9" r="4.2"/>
+		</g>
+		<g>
+			<circle fill="none" stroke="#D1D1D1" stroke-miterlimit="10" stroke-dasharray="12" cx="44.5" cy="227" r="1.6"/>
+		</g>
+		<polygon points="49,203 49,196 47,196 47,203 45.4,203 48.4,206.3 51.4,203 	"/>
+	</g>
+	<g>
+		<rect x="426.5" y="71.5" fill="#FFFFFF" stroke="#777777" stroke-miterlimit="10" width="24" height="24"/>
+		<path fill="#CCCCCC" stroke="#999999" stroke-miterlimit="10" d="M448.8,41.7c-1.3,0-2.6,0.4-3.6,1.2c-1.1-1.7-2.9-2.8-5.1-2.8
+			c-0.6,0-1.2,0.1-1.8,0.3c-1-0.6-2.1-1-3.4-1c-2.4,0-4.5,1.5-5.5,3.6c-0.2,0-0.4,0-0.6,0c-3.3,0-6,2.7-6,6c0,3.3,2.7,6,6,6
+			c0.9,0,1.7-0.2,2.4-0.5c1.1,1.2,2.7,2,4.5,2c1.9,0,3.7-0.9,4.8-2.3c1.1,0.9,2.4,1.4,3.9,1.4c1.7,0,3.2-0.9,4.3-1.9c0,0,0,0,0,0
+			c3.3,0,6-2.6,6-5.9S452.1,41.7,448.8,41.7z"/>
+		<circle fill="#777777" cx="437.1" cy="82.8" r="5.6"/>
+		<circle fill="#A3A3A3" cx="441.1" cy="85" r="4"/>
+		<circle fill="#D1D1D1" cx="434.4" cy="87.9" r="1.5"/>
+		<polygon points="439,62 440.9,62 438.5,59.4 436.1,62 438,62 438,66 436.1,66 438.5,68.6 440.9,66 439,66 	"/>
+	</g>
+	<g>
+		<rect x="600.5" y="351.5" fill="#FFFFFF" stroke="#777777" stroke-miterlimit="10" width="22" height="22"/>
+		<circle fill="#777777" cx="609.8" cy="361.7" r="5.2"/>
+		<circle fill="#A3A3A3" cx="613.6" cy="363.7" r="3.7"/>
+		<circle fill="#D1D1D1" cx="607.4" cy="366.4" r="1.4"/>
+		<polygon points="612,342 613.4,342 611.2,339.6 609,342 611,342 611,346 609,346 611.2,348.4 613.4,346 612,346 	"/>
+		<g>
+			<path fill="#B2B2B2" d="M615,335.2c0,0.5-0.4,0.8-0.8,0.8h-6.3c-0.5,0-0.8-0.4-0.8-0.8v-12.3c0-0.5,0.4-0.8,0.8-0.8h6.3
+				c0.5,0,0.8,0.4,0.8,0.8V335.2z"/>
+			<path fill="#565656" d="M615,333.4c0,0.4-0.8,1.6-1.2,1.6h-5.3c-0.4,0-0.5-1.2-0.5-1.6v-9.7c0-0.4,0.2,0.2,0.5,0.2h5.3
+				c0.4,0,1.2-0.6,1.2-0.2V333.4z"/>
+		</g>
+	</g>
+	</svg>
+	</div><!-- end diagramwrap -->
 
-<div class="svg-overlay">
-</div>
+	<div class="svg-overlay">
+	</div>
 
-<h3 id="Detecting_offline_state">Detecting offline state</h3>
-<p>There are a few APIs available to determine the user's connection status. These are useful because you can skip HTTP requests if you know the user is offline. You can also display less generic failure messages. For example: if you were writing a Twitter client, a message like “New tweets cannot be loaded while offline” is more informative than “Could not make HTTP connection.”</p>
-<p>Try to focus on loading data from your/others' API only when needed, and keep data cached so you don't have to request the same data twice. It can also be helpful to prefetch some data so the user can use parts of your app offline that they have yet to open.</p>
-<p><a href="/en-US/docs/Web/API/NavigatorOnLine.onLine">navigatorOnline.onLine</a> is designed to detect online status, but this is not very reliable. There are a number of <a href="http://www.html5rocks.com/en/mobile/workingoffthegrid/#toc-detecting-network">other offline detection mechanisms</a>, but we would recommend using an offline detection library, such as <a href="http://github.hubspot.com/offline/docs/welcome/">offline.js</a>.</p>
-<p>If you are using <a href="/en-US/docs/DOM/XMLHttpRequest/Using_XMLHttpRequest">XMLHttpRequest</a> to update data dynamically, you can check its response to determine if the network connection has dropped during the use of your app. If your app has <a href="/en-US/docs/Web/API/XMLHttpRequest#mozSystem">systemXHR privileges</a>, you can check for a connection to a site unlikely to be down to determine if you have an active connection (iOS does this with Apple.com)<code>.</code></p>
-<pre class="brush: js">
-// We'll assume we aren't online.
-var online = false;
+	<h3 id="Detecting_offline_state">Detecting offline state</h3>
+	<p>There are a few APIs available to determine the user's connection status. These are useful because you can skip HTTP requests if you know the user is offline. You can also display less generic failure messages. For example: if you were writing a Twitter client, a message like “New tweets cannot be loaded while offline” is more informative than “Could not make HTTP connection.”</p>
+	<p>Try to focus on loading data from your/others' API only when needed, and keep data cached so you don't have to request the same data twice. It can also be helpful to prefetch some data so the user can use parts of your app offline that they have yet to open.</p>
+	<p><a href="/en-US/docs/Web/API/NavigatorOnLine.onLine">navigatorOnline.onLine</a> is designed to detect online status, but this is not very reliable. There are a number of <a href="http://www.html5rocks.com/en/mobile/workingoffthegrid/#toc-detecting-network">other offline detection mechanisms</a>, but we would recommend using an offline detection library, such as <a href="http://github.hubspot.com/offline/docs/welcome/">offline.js</a>.</p>
+	<p>If you are using <a href="/en-US/docs/DOM/XMLHttpRequest/Using_XMLHttpRequest">XMLHttpRequest</a> to update data dynamically, you can check its response to determine if the network connection has dropped during the use of your app. If your app has <a href="/en-US/docs/Web/API/XMLHttpRequest#mozSystem">systemXHR privileges</a>, you can check for a connection to a site unlikely to be down to determine if you have an active connection (iOS does this with Apple.com)<code>.</code></p>
+	<pre class="brush: js">
+	// We'll assume we aren't online.
+	var online = false;
 
-// Assume we're a packaged app with systemXHR permissions.
-// https://developer.mozilla.org/docs/Web/Apps/App_permissions
-var request = new window.XMLHttpRequest({mozSystem: true});
-request.open('HEAD', 'http://www.mozilla.org/robots.txt', true);
-request.timeout = 5750;
+	// Assume we're a packaged app with systemXHR permissions.
+	// https://developer.mozilla.org/docs/Web/Apps/App_permissions
+	var request = new window.XMLHttpRequest({mozSystem: true});
+	request.open('HEAD', 'http://www.mozilla.org/robots.txt', true);
+	request.timeout = 5750;
 
-request.addEventListener('load', function(event) {
-   console.log('We seem to be online!', event);
-   online = true;
-});
+	request.addEventListener('load', function(event) {
+	   console.log('We seem to be online!', event);
+	   online = true;
+	});
 
-var offlineAlert = function(event) {
-   console.log('We are likely offline:', event);
-}
+	var offlineAlert = function(event) {
+	   console.log('We are likely offline:', event);
+	}
 
-request.addEventListener('error', offlineAlert);
-request.addEventListener('timeout', offlineAlert);
+	request.addEventListener('error', offlineAlert);
+	request.addEventListener('timeout', offlineAlert);
 
-request.send(null);
-</pre>
-<p>When your app is first loaded/installed, it should store its assets and data offline, as indicated below. On subsequent loads, it should take a progressive enhancement approach — assume the app is offline and work with the dataset it has available in offline storage. If online, it should update the assets and data as available.</p>
-<h3 id="Storing_assets_offline">Storing assets offline</h3>
-<p>If you are distributing your app as a packaged app on the app store (for example a Firefox OS app, distributed via the <a href="/en-US/Marketplace/Submission/Submitting_an_app">Firefox Marketplace</a>), then you get this part for free — once the app is installed on the device, the assets are saved locally (see <a href="/en-US/Apps/Publishing/Packaged_Apps">Packaged apps</a>).</p>
-<p>If your app is hosted and you want it to be available as an open web app as well as installed on Firefox OS, you will need to use <a href="https://developer.mozilla.org/en-US/docs/HTML/Using_the_application_cache">App Cache</a>, which is good for most cases, but does have its own <a href="http://alistapart.com/article/application-cache-is-a-douchebag">problems to be considered</a> and worked through. The AppCache manifest will typically list of all the CSS, fonts, JavaScript, and image files you use. You can <a href="http://appcache.rawkes.com" rel="external">use tools</a> to generate your manifest or create one by hand. This is an example of the format, from <a href="https://github.com/tofumatt/face-value/blob/master/www/manifest.appcache" rel="external">Face Value’s manifest</a>:<code> </code></p>
-<pre class="brush: js">
-CACHE MANIFEST
-# v 0.1 / 12
+	request.send(null);
+	</pre>
+	<p>When your app is first loaded/installed, it should store its assets and data offline, as indicated below. On subsequent loads, it should take a progressive enhancement approach — assume the app is offline and work with the dataset it has available in offline storage. If online, it should update the assets and data as available.</p>
+	<h3 id="Storing_assets_offline">Storing assets offline</h3>
+	<p>If you are distributing your app as a packaged app on the app store (for example a Firefox OS app, distributed via the <a href="/en-US/Marketplace/Submission/Submitting_an_app">Firefox Marketplace</a>), then you get this part for free — once the app is installed on the device, the assets are saved locally (see <a href="/en-US/Apps/Publishing/Packaged_Apps">Packaged apps</a>).</p>
+	<p>If your app is hosted and you want it to be available as an open web app as well as installed on Firefox OS, you will need to use <a href="https://developer.mozilla.org/en-US/docs/HTML/Using_the_application_cache">App Cache</a>, which is good for most cases, but does have its own <a href="http://alistapart.com/article/application-cache-is-a-douchebag">problems to be considered</a> and worked through. The AppCache manifest will typically list of all the CSS, fonts, JavaScript, and image files you use. You can <a href="http://appcache.rawkes.com" rel="external">use tools</a> to generate your manifest or create one by hand. This is an example of the format, from <a href="https://github.com/tofumatt/face-value/blob/master/www/manifest.appcache" rel="external">Face Value’s manifest</a>:<code> </code></p>
+	<pre class="brush: js">
+	CACHE MANIFEST
+	# v 0.1 / 12
 
-CACHE:
-css/app.css
-img/coins/gold@2x.png
-js/main.js
-js/lib/require.js
+	CACHE:
+	css/app.css
+	img/coins/gold@2x.png
+	js/main.js
+	js/lib/require.js
 
-NETWORK:
-*
-http://*
-https://*</pre>
-<div class="note">
- <p><strong>Note</strong>: If you're using JavaScript templates like <a href="http://mustache.github.io/" rel="external">mustache</a>, be sure to include your templates in your Appcache manifest or precompile them into your built JavaScript files.</p>
-</div>
-<div class="warning">
- <p><strong>Important</strong>: In your appcache manifest you cannot specify any resources that are on a different domain (even redirects). Chrome lets you do this as long as the resources are served over SSL, but this contravenes the spec, and other browsers don't. Bear this in mind if, for example, you are serving content from a CDN with a different origin.</p>
-</div>
-<h3 id="Storing_data_offline">Storing data offline</h3>
-<p>To get up and running quickly with offline data we'd recommend that you use <a href="https://github.com/mozilla/localForage">localForage</a>, a handy library that abstracts away the differences in cross browser support for offline data technologies. It provides asynchronous data storage via <a href="/en-US/docs/IndexedDB">IndexedDB</a> for browsers that support it; it then falls back to <a href="http://html5doctor.com/introducing-web-sql-databases/">WebSQL</a> for browsers that support that (such as Safari), and <a href="/en-US/docs/Storage">localStorage</a> for browsers with even more basic support. (see <a href="https://github.com/mozilla/localForage#supported-browsersplatforms">more detailed support info</a>).</p>
-<p>localForage uses simple, localStorage-like syntax for getting and setting data items:</p>
-<pre class="brush: js">
-localforage.getItem('key', function(value) {
-        alert('My value is: ' + value);
-    });
-}
-localforage.setItem('key', 'value', doSomethingElse);</pre>
-<div class="note">
- <p><strong>Note</strong>: For more information, read <a href="https://github.com/mozilla/localForage#how-to-use-localforage">how to use localForage</a>.</p>
-</div>
-<div class="note">
- <p><strong>Note</strong>: The <a href="/en-US/docs/WebAPI/Device_Storage">Device Storage API</a> is an option available on Firefox OS for storing large data objects, but IndexedDB (localForage) should also be ok. The <a href="/en-US/Apps/Reference_apps/Podcasts">Podcasts reference app</a> uses IndexedDB to store episodes in <a href="https://github.com/mozilla/high-fidelity/blob/master/www/js/models/episode.js#L94" rel="external">its episode model code</a>.</p>
-</div>
-<h3 id="Saving_state">Saving state</h3>
-<p><span class="author-g-frc9o9ihh5c9qyd0">During app usage, you should ensure that its state is saved periodically</span> to the offline data store, and<span class="author-g-frc9o9ihh5c9qyd0"> save state locally when user closes the app</span>.</p>
-<h3 id="Syncing_with_server_side">Syncing with server side</h3>
-<p><span class="author-g-ydn6o0u3cyybwkqy">Your app should also save its data back to the server periodically. If your app is offline you should consider building a queueing solution that can handle a lack of connectivity, aiming to save the updates once the network is available again. We are working on an easy solution for this.</span></p>
-<p><span class="author-g-ydn6o0u3cyybwkqy">Third party code that may help:</span></p>
-<ul>
- <li><a href="http://pouchdb.com/">PouchDB</a></li>
- <li><a href="https://www.firebase.com/">Firebase</a></li>
-</ul>  
+	NETWORK:
+	*
+	http://*
+	https://*</pre>
+	<div class="note">
+	 <p><strong>Note</strong>: If you're using JavaScript templates like <a href="http://mustache.github.io/" rel="external">mustache</a>, be sure to include your templates in your Appcache manifest or precompile them into your built JavaScript files.</p>
+	</div>
+	<div class="warning">
+	 <p><strong>Important</strong>: In your appcache manifest you cannot specify any resources that are on a different domain (even redirects). Chrome lets you do this as long as the resources are served over SSL, but this contravenes the spec, and other browsers don't. Bear this in mind if, for example, you are serving content from a CDN with a different origin.</p>
+	</div>
+	<h3 id="Storing_data_offline">Storing data offline</h3>
+	<p>To get up and running quickly with offline data we'd recommend that you use <a href="https://github.com/mozilla/localForage">localForage</a>, a handy library that abstracts away the differences in cross browser support for offline data technologies. It provides asynchronous data storage via <a href="/en-US/docs/IndexedDB">IndexedDB</a> for browsers that support it; it then falls back to <a href="http://html5doctor.com/introducing-web-sql-databases/">WebSQL</a> for browsers that support that (such as Safari), and <a href="/en-US/docs/Storage">localStorage</a> for browsers with even more basic support. (see <a href="https://github.com/mozilla/localForage#supported-browsersplatforms">more detailed support info</a>).</p>
+	<p>localForage uses simple, localStorage-like syntax for getting and setting data items:</p>
+	<pre class="brush: js">
+	localforage.getItem('key', function(value) {
+	        alert('My value is: ' + value);
+	    });
+	}
+	localforage.setItem('key', 'value', doSomethingElse);</pre>
+	<div class="note">
+	 <p><strong>Note</strong>: For more information, read <a href="https://github.com/mozilla/localForage#how-to-use-localforage">how to use localForage</a>.</p>
+	</div>
+	<div class="note">
+	 <p><strong>Note</strong>: The <a href="/en-US/docs/WebAPI/Device_Storage">Device Storage API</a> is an option available on Firefox OS for storing large data objects, but IndexedDB (localForage) should also be ok. The <a href="/en-US/Apps/Reference_apps/Podcasts">Podcasts reference app</a> uses IndexedDB to store episodes in <a href="https://github.com/mozilla/high-fidelity/blob/master/www/js/models/episode.js#L94" rel="external">its episode model code</a>.</p>
+	</div>
+	<h3 id="Saving_state">Saving state</h3>
+	<p><span class="author-g-frc9o9ihh5c9qyd0">During app usage, you should ensure that its state is saved periodically</span> to the offline data store, and<span class="author-g-frc9o9ihh5c9qyd0"> save state locally when user closes the app</span>.</p>
+	<h3 id="Syncing_with_server_side">Syncing with server side</h3>
+	<p><span class="author-g-ydn6o0u3cyybwkqy">Your app should also save its data back to the server periodically. If your app is offline you should consider building a queueing solution that can handle a lack of connectivity, aiming to save the updates once the network is available again. We are working on an easy solution for this.</span></p>
+	<p><span class="author-g-ydn6o0u3cyybwkqy">Third party code that may help:</span></p>
+	<ul>
+	 <li><a href="http://pouchdb.com/">PouchDB</a></li>
+	 <li><a href="https://www.firebase.com/">Firebase</a></li>
+	</ul> 
+<div><!-- end pagewrap --> 
 
 <script src="scripts/main.js"></script>
 	
