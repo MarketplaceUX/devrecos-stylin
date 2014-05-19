@@ -1,0 +1,41 @@
+body {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.active-area:hover rect, .active-area:hover circle {
+  stroke: #666;
+  fill: #ddd;
+}
+
+.active-area:hover * {
+  cursor: pointer;
+}
+
+.svg-overlay {
+	position: absolute;
+	font-size: 0.7rem;
+	background: #ddd;
+	width: 200px;
+	padding: 5px;
+	border: 5px solid #999;
+}
+
+.faq-box {
+  background: #ddd;
+  padding: 5px 20px 5px 30px;
+  border: 5px solid #999;
+}
+
+.faq-box dl {
+	padding-left: 20px;
+}
+
+.faq-box dt {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.faq-box dd {
+	margin-bottom: 10px;
+}
