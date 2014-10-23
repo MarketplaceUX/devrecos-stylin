@@ -1,4 +1,4 @@
 ## Update FAQs and Diagrams for Mozilla MDN pages (short-term fix)
 
-This is a mockup of how the new FAQs and Diagrams will look in MDN.   
+These are the files needed to create the mockup, which [you can find here[http://people.mozilla.org/~ehunt/devrecos-stylin/]
 
